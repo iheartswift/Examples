@@ -12,25 +12,54 @@ struct ContentView: View {
     
     @State var isShowingToast: Bool = false
     
-    var config: ToastViewConfiguration {
+    var topConfig: ToastViewConfiguration {
         
         return ToastViewConfigurationBuilder()
             
-            /// This is so the toast always displays in the preview otherwise it would disappear after the presentationOptions.delay
-            .setPresentationOptions(ToastViewPresentationOptions(infinite: true))
-            
             // Modify the configuration here
-            .setCornerRadius(30.0)
+        
+            /// Set the font
+            .setFontOptions(ToastViewFontOptions(font: UIFont.boldSystemFont(ofSize: 24.0)))
+        
+            /// Set the corner radius of the toast
+            .setCornerRadius(20.0)
         
             /// Add animation for slide in / out
             .setAnimationOptions(ToastViewAnimationOptions(duration: 0.5))
             
             /// Add rainbow
-            .setRotatingBorderOptions(ToastViewRotatingBorderOptions())
+            .setRotatingBorderOptions(ToastViewRotatingBorderOptions(colors: [.systemGreen, .systemBlue, .systemMint, .systemPurple]))
             
             /// Add an image from a URL
             .setImageOptions(ToastViewImageOptions(
-                url: URL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png")!
+                url: URL(string: "https://www.minecraft.net/content/dam/games/minecraft/key-art/Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg")!
+            ))
+            
+            .build()
+    }
+    
+    var bottomConfig: ToastViewConfiguration {
+        
+        return ToastViewConfigurationBuilder()
+            
+            // Modify the configuration here
+            .setPosition(.bottom)
+        
+            /// Set the font
+            .setFontOptions(ToastViewFontOptions(font: UIFont.boldSystemFont(ofSize: 24.0)))
+        
+            /// Set the corner radius of the toast
+            .setCornerRadius(20.0)
+        
+            /// Add animation for slide in / out
+            .setAnimationOptions(ToastViewAnimationOptions(duration: 0.5))
+            
+            /// Add rainbow
+            .setRotatingBorderOptions(ToastViewRotatingBorderOptions(colors: [.systemPurple, .systemOrange, .systemPink, .white]))
+            
+            /// Add an image from a URL
+            .setImageOptions(ToastViewImageOptions(
+                url: URL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png")!
             ))
             
             .build()
@@ -52,8 +81,13 @@ struct ContentView: View {
         }
         .padding()
         .toast(
-            text: "Testing",
-            configuration: config,
+            text: "Download Minecraft",
+            configuration: topConfig,
+            show: $isShowingToast
+        )
+        .toast(
+            text: "Your photos are ready",
+            configuration: bottomConfig,
             show: $isShowingToast
         )
     }

@@ -11,6 +11,7 @@ import ToastView
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     let tableView = UITableView()
+    
     enum ToastType: Int, CaseIterable {
         case darkModeAlert, toastFromTop, toastFromBottom, toastFromTopWithAnimation, toastFromBottomWithAnimation, toastWithCustomBorder, toastWithCustomFont, toastWithNoEmoji, primaryAlert, secondaryAlert, successAlert, dangerAlert, warningAlert, infoAlert
 
@@ -226,11 +227,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     private func showDangerAlert() {
-       ToastView.alert(type: .danger, text: "Having trouble connecting to server")
+        let config = ToastViewConfigurationBuilder()
+            .setPosition(.bottom)
+            .build()
+        
+        ToastView.alert(type: .danger, text: "🚨 No internet connectivity!", configuration: config)
     }
 
     private func showWarningAlert() {
-       ToastView.alert(type: .warning, text: "This is a warning alert—check it out!")
+        
+        let config = ToastViewConfigurationBuilder()
+            .setPosition(.bottom)
+            .build()
+        
+       ToastView.alert(type: .warning, text: "⚠️ This is your first warning!", configuration: config)
     }
 
     private func showInfoAlert() {
