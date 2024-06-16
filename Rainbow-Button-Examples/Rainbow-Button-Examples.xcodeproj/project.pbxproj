@@ -7,62 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A4DE4F72C1CC90B00FE2D0A /* Rainbow_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4F62C1CC90B00FE2D0A /* Rainbow_ExamplesApp.swift */; };
-		9A4DE4F92C1CC90B00FE2D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4F82C1CC90B00FE2D0A /* ContentView.swift */; };
-		9A4DE4FB2C1CC90C00FE2D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE4FA2C1CC90C00FE2D0A /* Assets.xcassets */; };
-		9A4DE4FE2C1CC90C00FE2D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE4FD2C1CC90C00FE2D0A /* Preview Assets.xcassets */; };
+		9A4DE5642C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE5632C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift */; };
+		9A4DE5662C1F4DF400FE2D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */; };
+		9A4DE5682C1F4DF500FE2D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */; };
+		9A4DE56C2C1F4DF500FE2D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */; };
+		9A56D2032C1F4FDE0001283C /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A56D2022C1F4FDE0001283C /* Rainbow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4DE4F32C1CC90B00FE2D0A /* Rainbow-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4DE4F62C1CC90B00FE2D0A /* Rainbow_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_ExamplesApp.swift; sourceTree = "<group>"; };
-		9A4DE4F82C1CC90B00FE2D0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9A4DE4FA2C1CC90C00FE2D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A4DE4FD2C1CC90C00FE2D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow-Button-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4DE5632C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_Button_ExamplesApp.swift; sourceTree = "<group>"; };
+		9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A4DE5692C1F4DF500FE2D0A /* Rainbow_Button_Examples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rainbow_Button_Examples.entitlements; sourceTree = "<group>"; };
+		9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A4DE4F02C1CC90B00FE2D0A /* Frameworks */ = {
+		9A4DE55D2C1F4DF400FE2D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A56D2032C1F4FDE0001283C /* Rainbow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A4DE4EA2C1CC90B00FE2D0A = {
+		9A4DE5572C1F4DF400FE2D0A = {
 			isa = PBXGroup;
 			children = (
-				9A4DE4F52C1CC90B00FE2D0A /* Rainbow-Examples */,
-				9A4DE4F42C1CC90B00FE2D0A /* Products */,
+				9A4DE5622C1F4DF400FE2D0A /* Rainbow-Button-Examples */,
+				9A4DE5612C1F4DF400FE2D0A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A4DE4F42C1CC90B00FE2D0A /* Products */ = {
+		9A4DE5612C1F4DF400FE2D0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DE4F32C1CC90B00FE2D0A /* Rainbow-Examples.app */,
+				9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A4DE4F52C1CC90B00FE2D0A /* Rainbow-Examples */ = {
+		9A4DE5622C1F4DF400FE2D0A /* Rainbow-Button-Examples */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DE4F62C1CC90B00FE2D0A /* Rainbow_ExamplesApp.swift */,
-				9A4DE4F82C1CC90B00FE2D0A /* ContentView.swift */,
-				9A4DE4FA2C1CC90C00FE2D0A /* Assets.xcassets */,
-				9A4DE4FC2C1CC90C00FE2D0A /* Preview Content */,
+				9A4DE5632C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift */,
+				9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */,
+				9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */,
+				9A4DE5692C1F4DF500FE2D0A /* Rainbow_Button_Examples.entitlements */,
+				9A4DE56A2C1F4DF500FE2D0A /* Preview Content */,
 			);
-			path = "Rainbow-Examples";
+			path = "Rainbow-Button-Examples";
 			sourceTree = "<group>";
 		};
-		9A4DE4FC2C1CC90C00FE2D0A /* Preview Content */ = {
+		9A4DE56A2C1F4DF500FE2D0A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DE4FD2C1CC90C00FE2D0A /* Preview Assets.xcassets */,
+				9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +74,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A4DE4F22C1CC90B00FE2D0A /* Rainbow-Examples */ = {
+		9A4DE55F2C1F4DF400FE2D0A /* Rainbow-Button-Examples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4DE5012C1CC90C00FE2D0A /* Build configuration list for PBXNativeTarget "Rainbow-Examples" */;
+			buildConfigurationList = 9A4DE56F2C1F4DF500FE2D0A /* Build configuration list for PBXNativeTarget "Rainbow-Button-Examples" */;
 			buildPhases = (
-				9A4DE4EF2C1CC90B00FE2D0A /* Sources */,
-				9A4DE4F02C1CC90B00FE2D0A /* Frameworks */,
-				9A4DE4F12C1CC90B00FE2D0A /* Resources */,
+				9A4DE55C2C1F4DF400FE2D0A /* Sources */,
+				9A4DE55D2C1F4DF400FE2D0A /* Frameworks */,
+				9A4DE55E2C1F4DF400FE2D0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Rainbow-Examples";
-			productName = "Rainbow-Examples";
-			productReference = 9A4DE4F32C1CC90B00FE2D0A /* Rainbow-Examples.app */;
+			name = "Rainbow-Button-Examples";
+			packageProductDependencies = (
+				9A56D2022C1F4FDE0001283C /* Rainbow */,
+			);
+			productName = "Rainbow-Button-Examples";
+			productReference = 9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A4DE4EB2C1CC90B00FE2D0A /* Project object */ = {
+		9A4DE5582C1F4DF400FE2D0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					9A4DE4F22C1CC90B00FE2D0A = {
+					9A4DE55F2C1F4DF400FE2D0A = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 9A4DE4EE2C1CC90B00FE2D0A /* Build configuration list for PBXProject "Rainbow-Examples" */;
+			buildConfigurationList = 9A4DE55B2C1F4DF400FE2D0A /* Build configuration list for PBXProject "Rainbow-Button-Examples" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +117,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 9A4DE4EA2C1CC90B00FE2D0A;
-			productRefGroup = 9A4DE4F42C1CC90B00FE2D0A /* Products */;
+			mainGroup = 9A4DE5572C1F4DF400FE2D0A;
+			packageReferences = (
+				9A56D2012C1F4FDE0001283C /* XCRemoteSwiftPackageReference "Rainbow" */,
+			);
+			productRefGroup = 9A4DE5612C1F4DF400FE2D0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A4DE4F22C1CC90B00FE2D0A /* Rainbow-Examples */,
+				9A4DE55F2C1F4DF400FE2D0A /* Rainbow-Button-Examples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A4DE4F12C1CC90B00FE2D0A /* Resources */ = {
+		9A4DE55E2C1F4DF400FE2D0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4DE4FE2C1CC90C00FE2D0A /* Preview Assets.xcassets in Resources */,
-				9A4DE4FB2C1CC90C00FE2D0A /* Assets.xcassets in Resources */,
+				9A4DE56C2C1F4DF500FE2D0A /* Preview Assets.xcassets in Resources */,
+				9A4DE5682C1F4DF500FE2D0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A4DE4EF2C1CC90B00FE2D0A /* Sources */ = {
+		9A4DE55C2C1F4DF400FE2D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4DE4F92C1CC90B00FE2D0A /* ContentView.swift in Sources */,
-				9A4DE4F72C1CC90B00FE2D0A /* Rainbow_ExamplesApp.swift in Sources */,
+				9A4DE5662C1F4DF400FE2D0A /* ContentView.swift in Sources */,
+				9A4DE5642C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9A4DE4FF2C1CC90C00FE2D0A /* Debug */ = {
+		9A4DE56D2C1F4DF500FE2D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,18 +207,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9A4DE5002C1CC90C00FE2D0A /* Release */ = {
+		9A4DE56E2C1F4DF500FE2D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,96 +262,132 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9A4DE5022C1CC90C00FE2D0A /* Debug */ = {
+		9A4DE5702C1F4DF500FE2D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rainbow-Button-Examples/Rainbow_Button_Examples.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Rainbow-Examples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Rainbow-Button-Examples/Preview Content\"";
 				DEVELOPMENT_TEAM = 4956A4G3WL;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adamdahan.Rainbow-Examples";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamdahan.Rainbow-Button-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
-		9A4DE5032C1CC90C00FE2D0A /* Release */ = {
+		9A4DE5712C1F4DF500FE2D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rainbow-Button-Examples/Rainbow_Button_Examples.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Rainbow-Examples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Rainbow-Button-Examples/Preview Content\"";
 				DEVELOPMENT_TEAM = 4956A4G3WL;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adamdahan.Rainbow-Examples";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamdahan.Rainbow-Button-Examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A4DE4EE2C1CC90B00FE2D0A /* Build configuration list for PBXProject "Rainbow-Examples" */ = {
+		9A4DE55B2C1F4DF400FE2D0A /* Build configuration list for PBXProject "Rainbow-Button-Examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4DE4FF2C1CC90C00FE2D0A /* Debug */,
-				9A4DE5002C1CC90C00FE2D0A /* Release */,
+				9A4DE56D2C1F4DF500FE2D0A /* Debug */,
+				9A4DE56E2C1F4DF500FE2D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4DE5012C1CC90C00FE2D0A /* Build configuration list for PBXNativeTarget "Rainbow-Examples" */ = {
+		9A4DE56F2C1F4DF500FE2D0A /* Build configuration list for PBXNativeTarget "Rainbow-Button-Examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4DE5022C1CC90C00FE2D0A /* Debug */,
-				9A4DE5032C1CC90C00FE2D0A /* Release */,
+				9A4DE5702C1F4DF500FE2D0A /* Debug */,
+				9A4DE5712C1F4DF500FE2D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A56D2012C1F4FDE0001283C /* XCRemoteSwiftPackageReference "Rainbow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iheartswift/Rainbow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A56D2022C1F4FDE0001283C /* Rainbow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A56D2012C1F4FDE0001283C /* XCRemoteSwiftPackageReference "Rainbow" */;
+			productName = Rainbow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9A4DE4EB2C1CC90B00FE2D0A /* Project object */;
+	rootObject = 9A4DE5582C1F4DF400FE2D0A /* Project object */;
 }
