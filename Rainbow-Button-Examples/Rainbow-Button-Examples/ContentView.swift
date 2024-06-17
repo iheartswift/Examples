@@ -23,7 +23,7 @@ struct ContentView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 title
-//                circleButtonExamples
+                circleButtonExamples
                 outlinedButtonExamples
                 standardButtonExamples
                 darkmodeButtonExamples
@@ -33,20 +33,6 @@ struct ContentView: View {
                 customSizeExamples
                 customBorderExamples
                 shapesExamples
-                
-                VStack {
-                    Image(systemName: "heart")
-                    Text("iHeartSwift")
-                }
-                .font(.largeTitle)
-                .padding(20)
-                .rainbowButton(.rainbow(shapeType: .capsule, colors: [
-                      Color(red: 0.87, green: 0.29, blue: 0.61),
-                      Color(red: 0.98, green: 0.42, blue: 0.41),
-                      Color(red: 0.99, green: 0.75, blue: 0.29)
-                  ])) {
-                      // Do something
-                  }
             }
             .padding()
         }
