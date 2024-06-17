@@ -23,7 +23,7 @@ struct ContentView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 title
-                circleButtonExamples
+//                circleButtonExamples
                 outlinedButtonExamples
                 standardButtonExamples
                 darkmodeButtonExamples
@@ -32,6 +32,21 @@ struct ContentView: View {
                 roundedButtonExamples
                 customSizeExamples
                 customBorderExamples
+                shapesExamples
+                
+                VStack {
+                    Image(systemName: "heart")
+                    Text("iHeartSwift")
+                }
+                .font(.largeTitle)
+                .padding(20)
+                .rainbowButton(.rainbow(shapeType: .capsule, colors: [
+                      Color(red: 0.87, green: 0.29, blue: 0.61),
+                      Color(red: 0.98, green: 0.42, blue: 0.41),
+                      Color(red: 0.99, green: 0.75, blue: 0.29)
+                  ])) {
+                      // Do something
+                  }
             }
             .padding()
         }
@@ -75,6 +90,45 @@ struct ContentView: View {
 
 extension ContentView {
     
+    @ViewBuilder
+    var shapesExamples: some View {
+        header(text: "Button Shapes")
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                
+                VStack {
+                    Image(systemName: "heart")
+                    Text("Rectangle")
+                }
+                .rainbowButton(.configure(.default, .rectangle)) {
+                    
+                }
+                VStack {
+                    Image(systemName: "heart")
+                    Text("Circle")
+                }
+                .padding()
+                .rainbowButton(.configure(.default, .circle)) {
+                    
+                }
+                VStack {
+                    Image(systemName: "heart")
+                    Text("Rounded")
+                }
+                .rainbowButton(.configure(.default, .roundedRectangle)) {
+                    
+                }
+                VStack {
+                    Image(systemName: "heart")
+                    Text("Capsule")
+                }
+                .rainbowButton(.configure(.default, .capsule)) {
+                    
+                }
+            }
+        }
+    }
+    
     /// Custom examples
     var rainbowWalletConfig: RainbowButtonConfiguration {
         return RainbowButtonConfigurationBuilder()
@@ -88,7 +142,7 @@ extension ContentView {
                     Color(red: 0.99, green: 0.75, blue: 0.29)  // Approximate orange/yellow
                 ])
             )
-            .setSize(.jumbo)
+            .setSize(.extraLarge)
             .build()
     }
     
@@ -99,7 +153,7 @@ extension ContentView {
             .setLoader(.rainbow)
             .setSound(RainbowSoundOptions(selectedSound: .tap))
             .setHaptic(RainbowHapticOptions(selectedHaptic: .heavy))
-            .setSize(.jumbo)
+            .setSize(.extraLarge)
             .setBounce(.subtle)
             .setTheme(RainbowColorTheme(background: .black, foreground: .white, selected: .yellow.opacity(0.2)))
             .setShadow(RainbowShadowOptions(color: .white.opacity(0.2), radius: 4.0, x: 1, y: 1))
@@ -144,7 +198,7 @@ extension ContentView {
                     .orange
                 ])
             )
-            .setSize(.jumbo)
+            .setSize(.extraLarge)
             .build()
     }
     
@@ -154,27 +208,27 @@ extension ContentView {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: -10) {
                 Image(systemName: "heart")
-                    .rainbowButton(.button(.outlined(.primary), .circle)) {
+                    .rainbowButton(.configure(.outlined(.primary), .circle)) {
                         print("Primary button tapped")
                     }
                 Image(systemName: "heart")
-                    .rainbowButton(.button(.linkLight, .circle)) {
+                    .rainbowButton(.configure(.linkLight, .circle)) {
                         print("Primary button tapped")
                     }
                 Image(systemName: "heart")
-                    .rainbowButton(.button(.info, .circle)) {
+                    .rainbowButton(.configure(.info, .circle)) {
                         print("Primary button tapped")
                     }
                 Image(systemName: "heart")
-                    .rainbowButton(.button(.success, .circle)) {
+                    .rainbowButton(.configure(.success, .circle)) {
                         print("Primary button tapped")
                     }
                 Image(systemName: "heart")
-                    .rainbowButton(.button(.warningLight, .circle)) {
+                    .rainbowButton(.configure(.warningLight, .circle)) {
                         print("Primary button tapped")
                     }
                 Image(systemName: "heart")
-                    .rainbowButton(.button(.dangerLight, .circle)) {
+                    .rainbowButton(.configure(.dangerLight, .circle)) {
                         print("Primary button tapped")
                     }
             }
@@ -194,7 +248,7 @@ extension ContentView {
                     Image(systemName: "heart")
                     Text("iheartswift")
                 }
-                .rainbowButton(rainbowWalletGlowConfig, .jumbo, isLoading: $isLoading) {
+                .rainbowButton(rainbowWalletGlowConfig, isLoading: $isLoading) {
                     triggerLoading()
                 }
                 
@@ -202,7 +256,7 @@ extension ContentView {
                     Image(systemName: "heart")
                     Text("iheartswift")
                 }
-                .rainbowButton(rainbowBorderConfig, .jumbo, isLoading: $isLoading) {
+                .rainbowButton(rainbowBorderConfig, isLoading: $isLoading) {
                     triggerLoading()
                 }
                 
@@ -210,7 +264,7 @@ extension ContentView {
                     Image(systemName: "heart")
                     Text("iheartswift")
                 }
-                .rainbowButton(rainbowWalletConfig, .jumbo, isLoading: $isLoading) {
+                .rainbowButton(rainbowWalletConfig, isLoading: $isLoading) {
                     triggerLoading()
                 }
                 #if os(tvOS)
@@ -282,11 +336,11 @@ extension ContentView {
                         print("Light button tapped")
                     }
                 Text("Dark")
-                    .rainbowButton(.dark, .medium) {
+                    .rainbowButton(.dark) {
                         print("Dark button tapped")
                     }
                 Text("Black")
-                    .rainbowButton(.black, .small) {
+                    .rainbowButton(.black) {
                         print("Black button tapped")
                     }
                 Text("Text")
@@ -350,27 +404,27 @@ extension ContentView {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 Text("💯 Primary")
-                    .rainbowButton(.button(.primary, .capsule, .small)) {
+                    .rainbowButton(.configure(.primary, .capsule, .small)) {
                         print("Primary button tapped")
                     }
                 Text("🔗 Link")
-                    .rainbowButton(.button(.link, .capsule, .normal)) {
+                    .rainbowButton(.configure(.link, .capsule, .normal)) {
                         print("Link button tapped")
                     }
                 Text("ℹ️ Info")
-                    .rainbowButton(.button(.info, .capsule, .medium)) {
+                    .rainbowButton(.configure(.info, .capsule, .medium)) {
                         print("Info button tapped")
                     }
                 Text("✅ Success")
-                    .rainbowButton(.button(.success, .capsule, .large)) {
+                    .rainbowButton(.configure(.success, .capsule, .large)) {
                         print("Success button tapped")
                     }
                 Text("⚠️ Warning!")
-                    .rainbowButton(.button(.warning, .capsule, .extraLarge)) {
+                    .rainbowButton(.configure(.warning, .capsule, .extraLarge)) {
                         print("Warning button tapped")
                     }
                 Text("⛔️ Danger")
-                    .rainbowButton(.button(.danger, .capsule, .jumbo)) {
+                    .rainbowButton(.configure(.danger, .capsule, .jumbo)) {
                         print("Danger button tapped")
                     }
             }
@@ -426,19 +480,19 @@ extension ContentView {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 Text("Primary")
-                    .rainbowButton(.primaryLight, .small) {
+                    .rainbowButton(.primaryLight) {
                         print("Primary button tapped")
                     }
                 Text("Link")
-                    .rainbowButton(.linkLight, .medium) {
+                    .rainbowButton(.linkLight) {
                         print("Link button tapped")
                     }
                 Text("Info")
-                    .rainbowButton(.infoLight, .large) {
+                    .rainbowButton(.infoLight) {
                         print("Info button tapped")
                     }
                 Text("Success")
-                    .rainbowButton(.successLight, .extraLarge) {
+                    .rainbowButton(.successLight) {
                         print("Success button tapped")
                     }
                 Text("Warning")
@@ -446,7 +500,7 @@ extension ContentView {
                         print("Warning button tapped")
                     }
                 Text("Danger")
-                    .rainbowButton(.dangerLight, .jumbo) {
+                    .rainbowButton(.dangerLight) {
                         print("Danger button tapped")
                     }
             }
@@ -464,7 +518,7 @@ extension ContentView {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 Text("Small")
-                    .rainbowButton(.defaultButton(.small)) {
+                    .rainbowButton(.configure(.default, .capsule, .small)) {
                         print("Primary button tapped")
                     }
                 Text("Default")
@@ -472,23 +526,23 @@ extension ContentView {
                         print("Link button tapped")
                     }
                 Text("Normal")
-                    .rainbowButton(.defaultButton(.normal)) {
+                    .rainbowButton(.configure(.default, .capsule, .normal)) {
                         print("Normal button tapped")
                     }
                 Text("Medium")
-                    .rainbowButton(.defaultButton(.medium)) {
+                    .rainbowButton(.configure(.default, .capsule, .medium)) {
                         print("Medium button tapped")
                     }
                 Text("Large")
-                    .rainbowButton(.defaultButton(.large)) {
+                    .rainbowButton(.configure(.default, .capsule, .large)) {
                         print("Large button tapped")
                     }
                 Text("Extra Large")
-                    .rainbowButton(.defaultButton(.extraLarge)) {
+                    .rainbowButton(.configure(.default, .capsule, .extraLarge)) {
                         print("Extra Large button tapped")
                     }
                 Text("Jumbo")
-                    .rainbowButton(.defaultButton(.jumbo)) {
+                    .rainbowButton(.configure(.default, .capsule, .jumbo)) {
                         print("Jumbo button tapped")
                     }
             }

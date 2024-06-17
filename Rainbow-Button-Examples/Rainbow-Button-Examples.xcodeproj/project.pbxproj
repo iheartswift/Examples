@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,7 @@
 		9A4DE5662C1F4DF400FE2D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */; };
 		9A4DE5682C1F4DF500FE2D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */; };
 		9A4DE56C2C1F4DF500FE2D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */; };
-		9A56D2032C1F4FDE0001283C /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A56D2022C1F4FDE0001283C /* Rainbow */; };
+		9AA893602C2099DB00CC996B /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9AA8935F2C2099DB00CC996B /* Rainbow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A56D2032C1F4FDE0001283C /* Rainbow in Frameworks */,
+				9AA893602C2099DB00CC996B /* Rainbow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			);
 			name = "Rainbow-Button-Examples";
 			packageProductDependencies = (
-				9A56D2022C1F4FDE0001283C /* Rainbow */,
+				9AA8935F2C2099DB00CC996B /* Rainbow */,
 			);
 			productName = "Rainbow-Button-Examples";
 			productReference = 9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */;
@@ -119,7 +119,7 @@
 			);
 			mainGroup = 9A4DE5572C1F4DF400FE2D0A;
 			packageReferences = (
-				9A56D2012C1F4FDE0001283C /* XCRemoteSwiftPackageReference "Rainbow" */,
+				9AA8935E2C2099DB00CC996B /* XCLocalSwiftPackageReference "../../Rainbow" */,
 			);
 			productRefGroup = 9A4DE5612C1F4DF400FE2D0A /* Products */;
 			projectDirPath = "";
@@ -370,21 +370,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		9A56D2012C1F4FDE0001283C /* XCRemoteSwiftPackageReference "Rainbow" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/iheartswift/Rainbow.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		9AA8935E2C2099DB00CC996B /* XCLocalSwiftPackageReference "../../Rainbow" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Rainbow;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9A56D2022C1F4FDE0001283C /* Rainbow */ = {
+		9AA8935F2C2099DB00CC996B /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9A56D2012C1F4FDE0001283C /* XCRemoteSwiftPackageReference "Rainbow" */;
 			productName = Rainbow;
 		};
 /* End XCSwiftPackageProductDependency section */
