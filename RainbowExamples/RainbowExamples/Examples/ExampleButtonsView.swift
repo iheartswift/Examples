@@ -1,15 +1,8 @@
-//
-//  ContentView.swift
-//
-//
-//  Created by Adam Dahan on 2024-06-11.
-//
-
 import SwiftUI
 import Rainbow
 
 /// The main view of the application showcasing different button styles.
-struct ContentView: View {
+struct ExampleButtonsView: View {
     
     /// State variable to manage the loading state of buttons.
     @State var isLoading: Bool = false
@@ -22,7 +15,6 @@ struct ContentView: View {
     private var contentView: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                title
                 circleButtonExamples
                 outlinedButtonExamples
                 standardButtonExamples
@@ -34,8 +26,9 @@ struct ContentView: View {
                 customBorderExamples
                 shapesExamples
             }
-            .padding()
+            .padding([.leading, .trailing, .bottom])
         }
+        .navigationTitle("Buttons")
     }
     
     /// The title view displaying the main heading of the content.
@@ -74,7 +67,7 @@ struct ContentView: View {
 
 // MARK: - Button Example Views
 
-extension ContentView {
+extension ExampleButtonsView {
     
     @ViewBuilder
     var shapesExamples: some View {
@@ -101,7 +94,7 @@ extension ContentView {
                     Image(systemName: "heart")
                     Text("Rounded")
                 }
-                .rainbowButton(.configure(.default, .roundedRectangle)) {
+                .rainbowButton(.configure(.default, .roundedRectangle())) {
                     
                 }
                 VStack {
@@ -117,10 +110,10 @@ extension ContentView {
     
     /// Custom examples
     var rainbowWalletConfig: RainbowButtonConfiguration {
-        return RainbowButtonConfigurationBuilder()
+        return RainbowButtonConfiguration.Builder()
             .setShape(type: .capsule)
             .setLoader(.rainbow)
-            .setTheme(RainbowColorTheme(background: .clear, foreground: .white, selected: .yellow.opacity(0.2)))
+            .setTheme(RainbowButtonColorTheme(background: .clear, foreground: .white, selected: .yellow.opacity(0.2)))
             .setShadow(RainbowShadowOptions())
             .setBackgroundGradient(RainbowGradientOptions(colors: [
                     Color(red: 0.87, green: 0.29, blue: 0.61), // Approximate pink/purple
@@ -134,14 +127,14 @@ extension ContentView {
     
     /// Custom examples
     var rainbowWalletGlowConfig: RainbowButtonConfiguration {
-        return RainbowButtonConfigurationBuilder()
+        return RainbowButtonConfiguration.Builder()
             .setShape(type: .capsule)
             .setLoader(.rainbow)
             .setSound(RainbowSoundOptions(selectedSound: .tap))
             .setHaptic(RainbowHapticOptions(selectedHaptic: .heavy))
             .setSize(.extraLarge)
             .setBounce(.subtle)
-            .setTheme(RainbowColorTheme(background: .black, foreground: .white, selected: .yellow.opacity(0.2)))
+            .setTheme(RainbowButtonColorTheme(background: .black, foreground: .white, selected: .yellow.opacity(0.2)))
             .setShadow(RainbowShadowOptions(color: .white.opacity(0.2), radius: 4.0, x: 1, y: 1))
             .setBorder(RainbowBorderOptions(
                     colors:[
@@ -163,7 +156,7 @@ extension ContentView {
     
     /// Rainbow border configuration
     var rainbowBorderConfig: RainbowButtonConfiguration {
-        return RainbowButtonConfigurationBuilder()
+        return RainbowButtonConfiguration.Builder()
             .setShape(type: .capsule)
             .setLoader(.rainbow)
             .setBorder(RainbowBorderOptions(

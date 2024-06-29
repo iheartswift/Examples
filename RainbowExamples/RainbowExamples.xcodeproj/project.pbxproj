@@ -7,112 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A4DE5642C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE5632C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift */; };
-		9A4DE5662C1F4DF400FE2D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */; };
-		9A4DE5682C1F4DF500FE2D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */; };
-		9A4DE56C2C1F4DF500FE2D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */; };
-		9AA893602C2099DB00CC996B /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9AA8935F2C2099DB00CC996B /* Rainbow */; };
-		9AA893632C20B65400CC996B /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9AA893622C20B65400CC996B /* Rainbow */; };
+		9A96F07A2C2B0F0100E02B6B /* RainbowExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */; };
+		9A96F07C2C2B0F0100E02B6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F07B2C2B0F0100E02B6B /* ContentView.swift */; };
+		9A96F07E2C2B0F0200E02B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F07D2C2B0F0200E02B6B /* Assets.xcassets */; };
+		9A96F0822C2B0F0200E02B6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F0812C2B0F0200E02B6B /* Preview Assets.xcassets */; };
+		9A96F08A2C2B0F3200E02B6B /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A96F0892C2B0F3200E02B6B /* Rainbow */; };
+		9A96F08C2C2B107400E02B6B /* ExampleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F08B2C2B107400E02B6B /* ExampleButtonsView.swift */; };
+		9A96F08E2C2B12D500E02B6B /* ExampleProgressBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F08D2C2B12D500E02B6B /* ExampleProgressBarsView.swift */; };
+		9A96F0902C2B5B1600E02B6B /* ExampleProgressScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F08F2C2B5B1600E02B6B /* ExampleProgressScrollView.swift */; };
+		9A96F09F2C2DEB0F00E02B6B /* ExampleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */; };
+		9A96F0A42C3032DE00E02B6B /* SalesCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F0A32C3032DE00E02B6B /* SalesCharts.swift */; };
+		9A96F0A72C30566900E02B6B /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A96F0A62C30566900E02B6B /* Rainbow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow-Button-Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4DE5632C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_Button_ExamplesApp.swift; sourceTree = "<group>"; };
-		9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A4DE5692C1F4DF500FE2D0A /* Rainbow_Button_Examples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rainbow_Button_Examples.entitlements; sourceTree = "<group>"; };
-		9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowExamplesApp.swift; sourceTree = "<group>"; };
+		9A96F07B2C2B0F0100E02B6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A96F07D2C2B0F0200E02B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A96F07F2C2B0F0200E02B6B /* RainbowExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RainbowExamples.entitlements; sourceTree = "<group>"; };
+		9A96F0812C2B0F0200E02B6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A96F08B2C2B107400E02B6B /* ExampleButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleButtonsView.swift; sourceTree = "<group>"; };
+		9A96F08D2C2B12D500E02B6B /* ExampleProgressBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProgressBarsView.swift; sourceTree = "<group>"; };
+		9A96F08F2C2B5B1600E02B6B /* ExampleProgressScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProgressScrollView.swift; sourceTree = "<group>"; };
+		9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCardView.swift; sourceTree = "<group>"; };
+		9A96F0A02C2F740900E02B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9A96F0A32C3032DE00E02B6B /* SalesCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesCharts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A4DE55D2C1F4DF400FE2D0A /* Frameworks */ = {
+		9A96F0732C2B0F0100E02B6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA893602C2099DB00CC996B /* Rainbow in Frameworks */,
-				9AA893632C20B65400CC996B /* Rainbow in Frameworks */,
+				9A96F08A2C2B0F3200E02B6B /* Rainbow in Frameworks */,
+				9A96F0A72C30566900E02B6B /* Rainbow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A4DE5572C1F4DF400FE2D0A = {
+		9A96F06D2C2B0F0100E02B6B = {
 			isa = PBXGroup;
 			children = (
-				9A4DE5622C1F4DF400FE2D0A /* Rainbow-Button-Examples */,
-				9A4DE5612C1F4DF400FE2D0A /* Products */,
+				9A96F0782C2B0F0100E02B6B /* RainbowExamples */,
+				9A96F0772C2B0F0100E02B6B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A4DE5612C1F4DF400FE2D0A /* Products */ = {
+		9A96F0772C2B0F0100E02B6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */,
+				9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A4DE5622C1F4DF400FE2D0A /* Rainbow-Button-Examples */ = {
+		9A96F0782C2B0F0100E02B6B /* RainbowExamples */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DE5632C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift */,
-				9A4DE5652C1F4DF400FE2D0A /* ContentView.swift */,
-				9A4DE5672C1F4DF500FE2D0A /* Assets.xcassets */,
-				9A4DE5692C1F4DF500FE2D0A /* Rainbow_Button_Examples.entitlements */,
-				9A4DE56A2C1F4DF500FE2D0A /* Preview Content */,
+				9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */,
+				9A96F07B2C2B0F0100E02B6B /* ContentView.swift */,
+				9A96F0912C2B5B2700E02B6B /* Examples */,
+				9A96F0A12C3032B800E02B6B /* Views */,
+				9A96F0A02C2F740900E02B6B /* Info.plist */,
+				9A96F07D2C2B0F0200E02B6B /* Assets.xcassets */,
+				9A96F07F2C2B0F0200E02B6B /* RainbowExamples.entitlements */,
+				9A96F0802C2B0F0200E02B6B /* Preview Content */,
 			);
-			path = "Rainbow-Button-Examples";
+			path = RainbowExamples;
 			sourceTree = "<group>";
 		};
-		9A4DE56A2C1F4DF500FE2D0A /* Preview Content */ = {
+		9A96F0802C2B0F0200E02B6B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DE56B2C1F4DF500FE2D0A /* Preview Assets.xcassets */,
+				9A96F0812C2B0F0200E02B6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A96F0912C2B5B2700E02B6B /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F08B2C2B107400E02B6B /* ExampleButtonsView.swift */,
+				9A96F08D2C2B12D500E02B6B /* ExampleProgressBarsView.swift */,
+				9A96F08F2C2B5B1600E02B6B /* ExampleProgressScrollView.swift */,
+				9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		9A96F0A12C3032B800E02B6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F0A22C3032C900E02B6B /* Charts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A96F0A22C3032C900E02B6B /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F0A32C3032DE00E02B6B /* SalesCharts.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A4DE55F2C1F4DF400FE2D0A /* Rainbow-Button-Examples */ = {
+		9A96F0752C2B0F0100E02B6B /* RainbowExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4DE56F2C1F4DF500FE2D0A /* Build configuration list for PBXNativeTarget "Rainbow-Button-Examples" */;
+			buildConfigurationList = 9A96F0852C2B0F0200E02B6B /* Build configuration list for PBXNativeTarget "RainbowExamples" */;
 			buildPhases = (
-				9A4DE55C2C1F4DF400FE2D0A /* Sources */,
-				9A4DE55D2C1F4DF400FE2D0A /* Frameworks */,
-				9A4DE55E2C1F4DF400FE2D0A /* Resources */,
+				9A96F0722C2B0F0100E02B6B /* Sources */,
+				9A96F0732C2B0F0100E02B6B /* Frameworks */,
+				9A96F0742C2B0F0100E02B6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Rainbow-Button-Examples";
+			name = RainbowExamples;
 			packageProductDependencies = (
-				9AA8935F2C2099DB00CC996B /* Rainbow */,
-				9AA893622C20B65400CC996B /* Rainbow */,
+				9A96F0892C2B0F3200E02B6B /* Rainbow */,
+				9A96F0A62C30566900E02B6B /* Rainbow */,
 			);
-			productName = "Rainbow-Button-Examples";
-			productReference = 9A4DE5602C1F4DF400FE2D0A /* Rainbow-Button-Examples.app */;
+			productName = RainbowExamples;
+			productReference = 9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A4DE5582C1F4DF400FE2D0A /* Project object */ = {
+		9A96F06E2C2B0F0100E02B6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					9A4DE55F2C1F4DF400FE2D0A = {
+					9A96F0752C2B0F0100E02B6B = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 9A4DE55B2C1F4DF400FE2D0A /* Build configuration list for PBXProject "Rainbow-Button-Examples" */;
+			buildConfigurationList = 9A96F0712C2B0F0100E02B6B /* Build configuration list for PBXProject "RainbowExamples" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,45 +161,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 9A4DE5572C1F4DF400FE2D0A;
+			mainGroup = 9A96F06D2C2B0F0100E02B6B;
 			packageReferences = (
-				9AA893612C20B65400CC996B /* XCRemoteSwiftPackageReference "Rainbow" */,
+				9A96F0A52C30566900E02B6B /* XCRemoteSwiftPackageReference "Rainbow" */,
 			);
-			productRefGroup = 9A4DE5612C1F4DF400FE2D0A /* Products */;
+			productRefGroup = 9A96F0772C2B0F0100E02B6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A4DE55F2C1F4DF400FE2D0A /* Rainbow-Button-Examples */,
+				9A96F0752C2B0F0100E02B6B /* RainbowExamples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A4DE55E2C1F4DF400FE2D0A /* Resources */ = {
+		9A96F0742C2B0F0100E02B6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4DE56C2C1F4DF500FE2D0A /* Preview Assets.xcassets in Resources */,
-				9A4DE5682C1F4DF500FE2D0A /* Assets.xcassets in Resources */,
+				9A96F0822C2B0F0200E02B6B /* Preview Assets.xcassets in Resources */,
+				9A96F07E2C2B0F0200E02B6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A4DE55C2C1F4DF400FE2D0A /* Sources */ = {
+		9A96F0722C2B0F0100E02B6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4DE5662C1F4DF400FE2D0A /* ContentView.swift in Sources */,
-				9A4DE5642C1F4DF400FE2D0A /* Rainbow_Button_ExamplesApp.swift in Sources */,
+				9A96F0902C2B5B1600E02B6B /* ExampleProgressScrollView.swift in Sources */,
+				9A96F08C2C2B107400E02B6B /* ExampleButtonsView.swift in Sources */,
+				9A96F0A42C3032DE00E02B6B /* SalesCharts.swift in Sources */,
+				9A96F08E2C2B12D500E02B6B /* ExampleProgressBarsView.swift in Sources */,
+				9A96F07C2C2B0F0100E02B6B /* ContentView.swift in Sources */,
+				9A96F07A2C2B0F0100E02B6B /* RainbowExamplesApp.swift in Sources */,
+				9A96F09F2C2DEB0F00E02B6B /* ExampleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9A4DE56D2C1F4DF500FE2D0A /* Debug */ = {
+		9A96F0832C2B0F0200E02B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		9A4DE56E2C1F4DF500FE2D0A /* Release */ = {
+		9A96F0842C2B0F0200E02B6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,19 +318,20 @@
 			};
 			name = Release;
 		};
-		9A4DE5702C1F4DF500FE2D0A /* Debug */ = {
+		9A96F0862C2B0F0200E02B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Rainbow-Button-Examples/Rainbow_Button_Examples.entitlements";
+				CODE_SIGN_ENTITLEMENTS = RainbowExamples/RainbowExamples.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Rainbow-Button-Examples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RainbowExamples/Preview Content\"";
 				DEVELOPMENT_TEAM = 4956A4G3WL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainbowExamples/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -300,7 +347,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adamdahan.Rainbow-Button-Examples";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.RainbowExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
@@ -311,19 +358,20 @@
 			};
 			name = Debug;
 		};
-		9A4DE5712C1F4DF500FE2D0A /* Release */ = {
+		9A96F0872C2B0F0200E02B6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Rainbow-Button-Examples/Rainbow_Button_Examples.entitlements";
+				CODE_SIGN_ENTITLEMENTS = RainbowExamples/RainbowExamples.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Rainbow-Button-Examples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RainbowExamples/Preview Content\"";
 				DEVELOPMENT_TEAM = 4956A4G3WL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainbowExamples/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -339,7 +387,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adamdahan.Rainbow-Button-Examples";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.RainbowExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
@@ -353,20 +401,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A4DE55B2C1F4DF400FE2D0A /* Build configuration list for PBXProject "Rainbow-Button-Examples" */ = {
+		9A96F0712C2B0F0100E02B6B /* Build configuration list for PBXProject "RainbowExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4DE56D2C1F4DF500FE2D0A /* Debug */,
-				9A4DE56E2C1F4DF500FE2D0A /* Release */,
+				9A96F0832C2B0F0200E02B6B /* Debug */,
+				9A96F0842C2B0F0200E02B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4DE56F2C1F4DF500FE2D0A /* Build configuration list for PBXNativeTarget "Rainbow-Button-Examples" */ = {
+		9A96F0852C2B0F0200E02B6B /* Build configuration list for PBXNativeTarget "RainbowExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4DE5702C1F4DF500FE2D0A /* Debug */,
-				9A4DE5712C1F4DF500FE2D0A /* Release */,
+				9A96F0862C2B0F0200E02B6B /* Debug */,
+				9A96F0872C2B0F0200E02B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -374,27 +422,27 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9AA893612C20B65400CC996B /* XCRemoteSwiftPackageReference "Rainbow" */ = {
+		9A96F0A52C30566900E02B6B /* XCRemoteSwiftPackageReference "Rainbow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/iheartswift/Rainbow.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.5;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9AA8935F2C2099DB00CC996B /* Rainbow */ = {
+		9A96F0892C2B0F3200E02B6B /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Rainbow;
 		};
-		9AA893622C20B65400CC996B /* Rainbow */ = {
+		9A96F0A62C30566900E02B6B /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9AA893612C20B65400CC996B /* XCRemoteSwiftPackageReference "Rainbow" */;
+			package = 9A96F0A52C30566900E02B6B /* XCRemoteSwiftPackageReference "Rainbow" */;
 			productName = Rainbow;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9A4DE5582C1F4DF400FE2D0A /* Project object */;
+	rootObject = 9A96F06E2C2B0F0100E02B6B /* Project object */;
 }
