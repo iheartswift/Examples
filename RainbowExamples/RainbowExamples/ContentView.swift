@@ -29,6 +29,7 @@ struct ContentView: View {
             Component(title: "Progress Bars", destination: ExampleProgressBarsView()),
             Component(title: "Progress ScrollView", destination: ExampleProgressScrollView()),
             Component(title: "Card", destination: ExampleCardView()),
+            Component(title: "Image", destination: ExampleImageView())
         ])
     ]
     
