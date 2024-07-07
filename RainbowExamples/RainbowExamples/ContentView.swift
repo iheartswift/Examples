@@ -29,6 +29,8 @@ struct ContentView: View {
             Component(title: "Progress Bars", destination: ExampleProgressBarsView()),
             Component(title: "Progress ScrollView", destination: ExampleProgressScrollView()),
             Component(title: "Card", destination: ExampleCardView()),
+            Component(title: "Notifications", destination: ExampleNotificationsView()),
+            Component(title: "Notifications with Modifiers", destination: ExampleNotificationsWithModifiersView()),
         ])
     ]
     

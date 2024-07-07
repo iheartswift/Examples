@@ -7,9 +7,6 @@ struct ExampleProgressBarsView: View {
     
     var body: some View {
         
-        RainbowProgressBar(.configure(.primary, .capsule), $progress)
-            .frame(height: 20)
-        
         ScrollView {
             VStack(spacing: 40) {
                 ForEach(ProgressBarType.allCases, id: \.self) { type in

@@ -1,13 +1,13 @@
 {
-  "originHash" : "5752cad7f6d22dcd1a97c5fb3e4e53564c15b61ae46e3fd183da3b67aa271cfd",
+  "originHash" : "444e1aeb3ec831c0c0fcaf7619e7f57404ce658fe0700799827858f74b32c7ed",
   "pins" : [
     {
       "identity" : "rainbow",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/iheartswift/Rainbow.git",
+      "location" : "https://github.com/iheartswift/Rainbow",
       "state" : {
-        "revision" : "35577c25c365d4f64f63eb28c1b6921ee12d5f45",
-        "version" : "2.0.0"
+        "revision" : "195d57e6a8d93abd06840f73765a24408d3c9e8f",
+        "version" : "2.1.0"
       }
     }
   ],

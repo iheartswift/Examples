@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2AB8032C3B086300475B9E /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A2AB8022C3B086300475B9E /* Rainbow */; };
 		9A96F07A2C2B0F0100E02B6B /* RainbowExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */; };
 		9A96F07C2C2B0F0100E02B6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F07B2C2B0F0100E02B6B /* ContentView.swift */; };
 		9A96F07E2C2B0F0200E02B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F07D2C2B0F0200E02B6B /* Assets.xcassets */; };
@@ -17,7 +18,9 @@
 		9A96F0902C2B5B1600E02B6B /* ExampleProgressScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F08F2C2B5B1600E02B6B /* ExampleProgressScrollView.swift */; };
 		9A96F09F2C2DEB0F00E02B6B /* ExampleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */; };
 		9A96F0A42C3032DE00E02B6B /* SalesCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F0A32C3032DE00E02B6B /* SalesCharts.swift */; };
-		9A96F0A72C30566900E02B6B /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A96F0A62C30566900E02B6B /* Rainbow */; };
+		9AE54E512C3AD3B500377088 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9AE54E502C3AD3B500377088 /* Rainbow */; };
+		9AE54E532C3AD5AE00377088 /* ExampleNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE54E522C3AD5AD00377088 /* ExampleNotificationsView.swift */; };
+		9AE54E552C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE54E542C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,8 @@
 		9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCardView.swift; sourceTree = "<group>"; };
 		9A96F0A02C2F740900E02B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9A96F0A32C3032DE00E02B6B /* SalesCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesCharts.swift; sourceTree = "<group>"; };
+		9AE54E522C3AD5AD00377088 /* ExampleNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNotificationsView.swift; sourceTree = "<group>"; };
+		9AE54E542C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNotificationsWithModifiersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2AB8032C3B086300475B9E /* Rainbow in Frameworks */,
 				9A96F08A2C2B0F3200E02B6B /* Rainbow in Frameworks */,
-				9A96F0A72C30566900E02B6B /* Rainbow in Frameworks */,
+				9AE54E512C3AD3B500377088 /* Rainbow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +100,8 @@
 				9A96F08D2C2B12D500E02B6B /* ExampleProgressBarsView.swift */,
 				9A96F08F2C2B5B1600E02B6B /* ExampleProgressScrollView.swift */,
 				9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */,
+				9AE54E522C3AD5AD00377088 /* ExampleNotificationsView.swift */,
+				9AE54E542C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -132,7 +140,8 @@
 			name = RainbowExamples;
 			packageProductDependencies = (
 				9A96F0892C2B0F3200E02B6B /* Rainbow */,
-				9A96F0A62C30566900E02B6B /* Rainbow */,
+				9AE54E502C3AD3B500377088 /* Rainbow */,
+				9A2AB8022C3B086300475B9E /* Rainbow */,
 			);
 			productName = RainbowExamples;
 			productReference = 9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */;
@@ -163,7 +172,7 @@
 			);
 			mainGroup = 9A96F06D2C2B0F0100E02B6B;
 			packageReferences = (
-				9A96F0A52C30566900E02B6B /* XCRemoteSwiftPackageReference "Rainbow" */,
+				9A2AB8012C3B086300475B9E /* XCRemoteSwiftPackageReference "Rainbow" */,
 			);
 			productRefGroup = 9A96F0772C2B0F0100E02B6B /* Products */;
 			projectDirPath = "";
@@ -193,9 +202,11 @@
 			files = (
 				9A96F0902C2B5B1600E02B6B /* ExampleProgressScrollView.swift in Sources */,
 				9A96F08C2C2B107400E02B6B /* ExampleButtonsView.swift in Sources */,
+				9AE54E532C3AD5AE00377088 /* ExampleNotificationsView.swift in Sources */,
 				9A96F0A42C3032DE00E02B6B /* SalesCharts.swift in Sources */,
 				9A96F08E2C2B12D500E02B6B /* ExampleProgressBarsView.swift in Sources */,
 				9A96F07C2C2B0F0100E02B6B /* ContentView.swift in Sources */,
+				9AE54E552C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift in Sources */,
 				9A96F07A2C2B0F0100E02B6B /* RainbowExamplesApp.swift in Sources */,
 				9A96F09F2C2DEB0F00E02B6B /* ExampleCardView.swift in Sources */,
 			);
@@ -422,24 +433,28 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9A96F0A52C30566900E02B6B /* XCRemoteSwiftPackageReference "Rainbow" */ = {
+		9A2AB8012C3B086300475B9E /* XCRemoteSwiftPackageReference "Rainbow" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/iheartswift/Rainbow.git";
+			repositoryURL = "https://github.com/iheartswift/Rainbow";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 2.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9A2AB8022C3B086300475B9E /* Rainbow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A2AB8012C3B086300475B9E /* XCRemoteSwiftPackageReference "Rainbow" */;
+			productName = Rainbow;
+		};
 		9A96F0892C2B0F3200E02B6B /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Rainbow;
 		};
-		9A96F0A62C30566900E02B6B /* Rainbow */ = {
+		9AE54E502C3AD3B500377088 /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9A96F0A52C30566900E02B6B /* XCRemoteSwiftPackageReference "Rainbow" */;
 			productName = Rainbow;
 		};
 /* End XCSwiftPackageProductDependency section */
