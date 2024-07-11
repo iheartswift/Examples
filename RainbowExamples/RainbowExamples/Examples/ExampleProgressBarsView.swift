@@ -2,7 +2,7 @@ import SwiftUI
 import Rainbow
 
 struct ExampleProgressBarsView: View {
-    @State private var progress: CGFloat = 0.5
+    @State private var progress: Double = 0.5
     private let shapeType: RainbowShapeType = .capsule // or .rectangle, .roundedRectangle, etc.
     
     var body: some View {

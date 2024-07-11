@@ -3,7 +3,7 @@ import Rainbow
 
 struct ExampleProgressScrollView: View {
     
-    @State private var progress: CGFloat = 0.0
+    @State private var progress: Double = 0.0
     
     var body: some View {
         VStack(spacing: 0) {
@@ -11,7 +11,7 @@ struct ExampleProgressScrollView: View {
             RainbowProgressBar(.configure(.rainbow, .rectangle), $progress)
                 .frame(height: 20)
             
-            RainbowScrollProgressView(progress: $progress) {
+            RainbowProgressScrollView(progress: $progress) {
                 VStack(alignment: .leading, spacing: 20) {
                     ForEach(0..<10) { chapter in
                         Text("Chapter \(chapter + 1)")
