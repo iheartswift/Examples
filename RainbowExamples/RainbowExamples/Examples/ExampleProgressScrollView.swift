@@ -11,6 +11,7 @@ struct ExampleProgressScrollView: View {
             RainbowProgressBar(.configure(.rainbow, .rectangle), $progress)
                 .frame(height: 20)
             
+            
             RainbowProgressScrollView(progress: $progress) {
                 VStack(alignment: .leading, spacing: 20) {
                     ForEach(0..<10) { chapter in

@@ -31,6 +31,7 @@ struct ContentView: View {
             Component(title: "Card", destination: ExampleCardView()),
             Component(title: "Notifications", destination: ExampleNotificationsView()),
             Component(title: "Notifications with Modifiers", destination: ExampleNotificationsWithModifiersView()),
+            Component(title: "TextFields", destination: ExampleFieldsView()),
         ])
     ]
     
