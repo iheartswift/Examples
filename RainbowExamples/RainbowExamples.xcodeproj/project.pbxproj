@@ -10,7 +10,8 @@
 		9A0188812C5417E30041D4AC /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A0188802C5417E30041D4AC /* Rainbow */; };
 		9A0188842C54183E0041D4AC /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A0188832C54183E0041D4AC /* Rainbow */; };
 		9A01888A2C5419880041D4AC /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A0188892C5419880041D4AC /* Rainbow */; };
-		9A01888D2C541A590041D4AC /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A01888C2C541A590041D4AC /* Rainbow */; };
+		9A0188902C54200D0041D4AC /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A01888F2C54200D0041D4AC /* Rainbow */; };
+		9A0188932C5420D60041D4AC /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A0188922C5420D60041D4AC /* Rainbow */; };
 		9A4B028F2C501630005D7494 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A4B028E2C501630005D7494 /* Rainbow */; };
 		9A557CB82C51BC3B0053BF33 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A557CB72C51BC3B0053BF33 /* Rainbow */; };
 		9A557CBE2C51C28F0053BF33 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A557CBD2C51C28F0053BF33 /* Rainbow */; };
@@ -62,8 +63,9 @@
 				9A4B028F2C501630005D7494 /* Rainbow in Frameworks */,
 				9A557CB82C51BC3B0053BF33 /* Rainbow in Frameworks */,
 				9A0188812C5417E30041D4AC /* Rainbow in Frameworks */,
+				9A0188932C5420D60041D4AC /* Rainbow in Frameworks */,
 				9A0188842C54183E0041D4AC /* Rainbow in Frameworks */,
-				9A01888D2C541A590041D4AC /* Rainbow in Frameworks */,
+				9A0188902C54200D0041D4AC /* Rainbow in Frameworks */,
 				9A96F08A2C2B0F3200E02B6B /* Rainbow in Frameworks */,
 				9AE54E512C3AD3B500377088 /* Rainbow in Frameworks */,
 			);
@@ -176,7 +178,8 @@
 				9A0188802C5417E30041D4AC /* Rainbow */,
 				9A0188832C54183E0041D4AC /* Rainbow */,
 				9A0188892C5419880041D4AC /* Rainbow */,
-				9A01888C2C541A590041D4AC /* Rainbow */,
+				9A01888F2C54200D0041D4AC /* Rainbow */,
+				9A0188922C5420D60041D4AC /* Rainbow */,
 			);
 			productName = RainbowExamples;
 			productReference = 9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */;
@@ -207,7 +210,7 @@
 			);
 			mainGroup = 9A96F06D2C2B0F0100E02B6B;
 			packageReferences = (
-				9A01888B2C541A590041D4AC /* XCRemoteSwiftPackageReference "Rainbow" */,
+				9A0188912C5420D60041D4AC /* XCRemoteSwiftPackageReference "Rainbow" */,
 			);
 			productRefGroup = 9A96F0772C2B0F0100E02B6B /* Products */;
 			projectDirPath = "";
@@ -475,12 +478,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9A01888B2C541A590041D4AC /* XCRemoteSwiftPackageReference "Rainbow" */ = {
+		9A0188912C5420D60041D4AC /* XCRemoteSwiftPackageReference "Rainbow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/iheartswift/Rainbow.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.3;
+				minimumVersion = 3.0.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -498,9 +501,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Rainbow;
 		};
-		9A01888C2C541A590041D4AC /* Rainbow */ = {
+		9A01888F2C54200D0041D4AC /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9A01888B2C541A590041D4AC /* XCRemoteSwiftPackageReference "Rainbow" */;
+			productName = Rainbow;
+		};
+		9A0188922C5420D60041D4AC /* Rainbow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A0188912C5420D60041D4AC /* XCRemoteSwiftPackageReference "Rainbow" */;
 			productName = Rainbow;
 		};
 		9A4B028E2C501630005D7494 /* Rainbow */ = {

@@ -33,9 +33,10 @@ struct ExampleToggleGroupView: View {
         )
         
         RainbowToggleGroup(
+            configuration: groupConfiguration,
             selectedItems: $selectedItems,
             items: items,
-            itemContent: { item in
+            { item in
                 VStack(alignment: .leading) {
                     Text(item.name)
                         .font(.headline)
@@ -43,8 +44,7 @@ struct ExampleToggleGroupView: View {
                         .font(.subheadline)
                         .foregroundColor(.gray)
                 }
-            }, 
-            configuration: groupConfiguration
+            }
         )
         .padding()
     }
