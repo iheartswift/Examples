@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		9A4B028F2C501630005D7494 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A4B028E2C501630005D7494 /* Rainbow */; };
 		9A557CB82C51BC3B0053BF33 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A557CB72C51BC3B0053BF33 /* Rainbow */; };
-		9A557CBB2C51BE080053BF33 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A557CBA2C51BE080053BF33 /* Rainbow */; };
+		9A557CBE2C51C28F0053BF33 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A557CBD2C51C28F0053BF33 /* Rainbow */; };
+		9A557CC92C527A640053BF33 /* ExampleToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A557CC82C527A640053BF33 /* ExampleToggleView.swift */; };
+		9A557CCB2C527AA90053BF33 /* ExampleToggleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A557CCA2C527AA90053BF33 /* ExampleToggleGroupView.swift */; };
+		9A557CD02C53D64F0053BF33 /* ExampleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A557CCF2C53D64F0053BF33 /* ExampleSwitchView.swift */; };
+		9A557CD32C53F6370053BF33 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9A557CD22C53F6370053BF33 /* Rainbow */; };
 		9A96F07A2C2B0F0100E02B6B /* RainbowExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */; };
 		9A96F07C2C2B0F0100E02B6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F07B2C2B0F0100E02B6B /* ContentView.swift */; };
 		9A96F07E2C2B0F0200E02B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F07D2C2B0F0200E02B6B /* Assets.xcassets */; };
@@ -23,10 +27,12 @@
 		9AB2C0B72C50240C00607786 /* ExampleFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2C0B62C50240C00607786 /* ExampleFieldsView.swift */; };
 		9AE54E512C3AD3B500377088 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = 9AE54E502C3AD3B500377088 /* Rainbow */; };
 		9AE54E532C3AD5AE00377088 /* ExampleNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE54E522C3AD5AD00377088 /* ExampleNotificationsView.swift */; };
-		9AE54E552C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE54E542C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A557CC82C527A640053BF33 /* ExampleToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleToggleView.swift; sourceTree = "<group>"; };
+		9A557CCA2C527AA90053BF33 /* ExampleToggleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleToggleGroupView.swift; sourceTree = "<group>"; };
+		9A557CCF2C53D64F0053BF33 /* ExampleSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwitchView.swift; sourceTree = "<group>"; };
 		9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowExamplesApp.swift; sourceTree = "<group>"; };
 		9A96F07B2C2B0F0100E02B6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +47,6 @@
 		9A96F0A32C3032DE00E02B6B /* SalesCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesCharts.swift; sourceTree = "<group>"; };
 		9AB2C0B62C50240C00607786 /* ExampleFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFieldsView.swift; sourceTree = "<group>"; };
 		9AE54E522C3AD5AD00377088 /* ExampleNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNotificationsView.swift; sourceTree = "<group>"; };
-		9AE54E542C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNotificationsWithModifiersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A557CBB2C51BE080053BF33 /* Rainbow in Frameworks */,
+				9A557CBE2C51C28F0053BF33 /* Rainbow in Frameworks */,
 				9A4B028F2C501630005D7494 /* Rainbow in Frameworks */,
 				9A557CB82C51BC3B0053BF33 /* Rainbow in Frameworks */,
+				9A557CD32C53F6370053BF33 /* Rainbow in Frameworks */,
 				9A96F08A2C2B0F3200E02B6B /* Rainbow in Frameworks */,
 				9AE54E512C3AD3B500377088 /* Rainbow in Frameworks */,
 			);
@@ -60,6 +66,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A557CCC2C527E510053BF33 /* Glass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Glass;
+			sourceTree = "<group>";
+		};
 		9A96F06D2C2B0F0100E02B6B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,7 @@
 		9A96F0782C2B0F0100E02B6B /* RainbowExamples */ = {
 			isa = PBXGroup;
 			children = (
+				9A557CCC2C527E510053BF33 /* Glass */,
 				9A96F0792C2B0F0100E02B6B /* RainbowExamplesApp.swift */,
 				9A96F07B2C2B0F0100E02B6B /* ContentView.swift */,
 				9A96F0912C2B5B2700E02B6B /* Examples */,
@@ -107,8 +121,10 @@
 				9A96F08F2C2B5B1600E02B6B /* ExampleProgressScrollView.swift */,
 				9A96F09E2C2DEB0F00E02B6B /* ExampleCardView.swift */,
 				9AE54E522C3AD5AD00377088 /* ExampleNotificationsView.swift */,
-				9AE54E542C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift */,
 				9AB2C0B62C50240C00607786 /* ExampleFieldsView.swift */,
+				9A557CC82C527A640053BF33 /* ExampleToggleView.swift */,
+				9A557CCA2C527AA90053BF33 /* ExampleToggleGroupView.swift */,
+				9A557CCF2C53D64F0053BF33 /* ExampleSwitchView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -150,7 +166,8 @@
 				9AE54E502C3AD3B500377088 /* Rainbow */,
 				9A4B028E2C501630005D7494 /* Rainbow */,
 				9A557CB72C51BC3B0053BF33 /* Rainbow */,
-				9A557CBA2C51BE080053BF33 /* Rainbow */,
+				9A557CBD2C51C28F0053BF33 /* Rainbow */,
+				9A557CD22C53F6370053BF33 /* Rainbow */,
 			);
 			productName = RainbowExamples;
 			productReference = 9A96F0762C2B0F0100E02B6B /* RainbowExamples.app */;
@@ -181,7 +198,7 @@
 			);
 			mainGroup = 9A96F06D2C2B0F0100E02B6B;
 			packageReferences = (
-				9A557CB92C51BE080053BF33 /* XCRemoteSwiftPackageReference "Rainbow" */,
+				9A557CD12C53F6370053BF33 /* XCRemoteSwiftPackageReference "Rainbow" */,
 			);
 			productRefGroup = 9A96F0772C2B0F0100E02B6B /* Products */;
 			projectDirPath = "";
@@ -210,12 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A96F0902C2B5B1600E02B6B /* ExampleProgressScrollView.swift in Sources */,
+				9A557CCB2C527AA90053BF33 /* ExampleToggleGroupView.swift in Sources */,
 				9A96F08C2C2B107400E02B6B /* ExampleButtonsView.swift in Sources */,
+				9A557CD02C53D64F0053BF33 /* ExampleSwitchView.swift in Sources */,
 				9AE54E532C3AD5AE00377088 /* ExampleNotificationsView.swift in Sources */,
 				9A96F0A42C3032DE00E02B6B /* SalesCharts.swift in Sources */,
 				9A96F08E2C2B12D500E02B6B /* ExampleProgressBarsView.swift in Sources */,
+				9A557CC92C527A640053BF33 /* ExampleToggleView.swift in Sources */,
 				9A96F07C2C2B0F0100E02B6B /* ContentView.swift in Sources */,
-				9AE54E552C3AEF9400377088 /* ExampleNotificationsWithModifiersView.swift in Sources */,
 				9A96F07A2C2B0F0100E02B6B /* RainbowExamplesApp.swift in Sources */,
 				9AB2C0B72C50240C00607786 /* ExampleFieldsView.swift in Sources */,
 				9A96F09F2C2DEB0F00E02B6B /* ExampleCardView.swift in Sources */,
@@ -447,12 +466,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9A557CB92C51BE080053BF33 /* XCRemoteSwiftPackageReference "Rainbow" */ = {
+		9A557CD12C53F6370053BF33 /* XCRemoteSwiftPackageReference "Rainbow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/iheartswift/Rainbow.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.1;
+				minimumVersion = 3.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -466,9 +485,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Rainbow;
 		};
-		9A557CBA2C51BE080053BF33 /* Rainbow */ = {
+		9A557CBD2C51C28F0053BF33 /* Rainbow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9A557CB92C51BE080053BF33 /* XCRemoteSwiftPackageReference "Rainbow" */;
+			productName = Rainbow;
+		};
+		9A557CD22C53F6370053BF33 /* Rainbow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A557CD12C53F6370053BF33 /* XCRemoteSwiftPackageReference "Rainbow" */;
 			productName = Rainbow;
 		};
 		9A96F0892C2B0F3200E02B6B /* Rainbow */ = {

@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/iheartswift/Rainbow.git",
       "state" : {
-        "revision" : "732c285f67c5cc1288bf6a9a2eb28c6ee4fc81cd",
-        "version" : "2.2.1"
+        "revision" : "ec8bb93221d538aca49907389ce3a46ef678349d",
+        "version" : "3.0.1"
       }
     }
   ],

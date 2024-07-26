@@ -28,10 +28,12 @@ struct ContentView: View {
             Component(title: "Buttons", destination: ExampleButtonsView()),
             Component(title: "Progress Bars", destination: ExampleProgressBarsView()),
             Component(title: "Progress ScrollView", destination: ExampleProgressScrollView()),
-            Component(title: "Card", destination: ExampleCardView()),
+            Component(title: "Cards", destination: ExampleCardView()),
             Component(title: "Notifications", destination: ExampleNotificationsView()),
-            Component(title: "Notifications with Modifiers", destination: ExampleNotificationsWithModifiersView()),
             Component(title: "TextFields", destination: ExampleFieldsView()),
+            Component(title: "Toggles", destination: ExampleToggleView()),
+            Component(title: "Toggle Groups", destination: ExampleToggleGroupView()),
+            Component(title: "Switchs", destination: ExampleSwitchView()),
         ])
     ]
     
