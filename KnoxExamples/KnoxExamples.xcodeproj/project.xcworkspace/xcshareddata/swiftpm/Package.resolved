@@ -1,0 +1,15 @@
+{
+  "originHash" : "ab1ba190c28637f603d312e73a1f7e1c3c98b990a8545c62ee6afc72a5aab9ec",
+  "pins" : [
+    {
+      "identity" : "knox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iheartswift/Knox.git",
+      "state" : {
+        "revision" : "e9074ed967029845578756664b196ab90b53ab61",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}

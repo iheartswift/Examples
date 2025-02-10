@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A8708682D5A6201005CA44D /* Knox in Frameworks */ = {isa = PBXBuildFile; productRef = 9A8708672D5A6201005CA44D /* Knox */; };
+		9A87086C2D5A6523005CA44D /* Knox in Frameworks */ = {isa = PBXBuildFile; productRef = 9A87086B2D5A6523005CA44D /* Knox */; };
+		9A9888F82CC6A21900177213 /* KnoxExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9888F72CC6A21900177213 /* KnoxExampleApp.swift */; };
+		9A9888FC2CC6A21A00177213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9888FB2CC6A21A00177213 /* Assets.xcassets */; };
+		9A9888FF2CC6A21A00177213 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9888FE2CC6A21A00177213 /* Preview Assets.xcassets */; };
+		9A9889292CC6B58E00177213 /* SecureStoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9889282CC6B58E00177213 /* SecureStoreListView.swift */; };
+		9A98892B2CC6B59F00177213 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A98892A2CC6B59F00177213 /* AddItemView.swift */; };
+		9A98892F2CC6B92000177213 /* SecureStoreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A98892E2CC6B92000177213 /* SecureStoreListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A98891C2CC6B1D400177213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9888EC2CC6A21900177213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9888F32CC6A21900177213;
+			remoteInfo = EncryptedPrefs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9888F42CC6A21900177213 /* KnoxExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnoxExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9888F72CC6A21900177213 /* KnoxExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnoxExampleApp.swift; sourceTree = "<group>"; };
+		9A9888FB2CC6A21A00177213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A9888FE2CC6A21A00177213 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A9889182CC6B1D400177213 /* KnoxExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnoxExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9889282CC6B58E00177213 /* SecureStoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreListView.swift; sourceTree = "<group>"; };
+		9A98892A2CC6B59F00177213 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		9A98892E2CC6B92000177213 /* SecureStoreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9888F12CC6A21900177213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A87086C2D5A6523005CA44D /* Knox in Frameworks */,
+				9A8708682D5A6201005CA44D /* Knox in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9889152CC6B1D400177213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9888EB2CC6A21900177213 = {
+			isa = PBXGroup;
+			children = (
+				9A9888F62CC6A21900177213 /* KnoxExamples */,
+				9A9888F52CC6A21900177213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9888F52CC6A21900177213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9888F42CC6A21900177213 /* KnoxExamples.app */,
+				9A9889182CC6B1D400177213 /* KnoxExamplesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9888F62CC6A21900177213 /* KnoxExamples */ = {
+			isa = PBXGroup;
+			children = (
+				9A9888F72CC6A21900177213 /* KnoxExampleApp.swift */,
+				9A9889252CC6B56800177213 /* Scenes */,
+				9A9888FB2CC6A21A00177213 /* Assets.xcassets */,
+				9A9888FD2CC6A21A00177213 /* Preview Content */,
+			);
+			path = KnoxExamples;
+			sourceTree = "<group>";
+		};
+		9A9888FD2CC6A21A00177213 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A9888FE2CC6A21A00177213 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A9889252CC6B56800177213 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9AAA629B2CCEB5DE00CB09B0 /* Store List */,
+				9AAA629C2CCEB5E900CB09B0 /* Add Item */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9AAA629B2CCEB5DE00CB09B0 /* Store List */ = {
+			isa = PBXGroup;
+			children = (
+				9A9889282CC6B58E00177213 /* SecureStoreListView.swift */,
+				9A98892E2CC6B92000177213 /* SecureStoreListViewModel.swift */,
+			);
+			path = "Store List";
+			sourceTree = "<group>";
+		};
+		9AAA629C2CCEB5E900CB09B0 /* Add Item */ = {
+			isa = PBXGroup;
+			children = (
+				9A98892A2CC6B59F00177213 /* AddItemView.swift */,
+			);
+			path = "Add Item";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9888F32CC6A21900177213 /* KnoxExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9889022CC6A21A00177213 /* Build configuration list for PBXNativeTarget "KnoxExamples" */;
+			buildPhases = (
+				9A9888F02CC6A21900177213 /* Sources */,
+				9A9888F12CC6A21900177213 /* Frameworks */,
+				9A9888F22CC6A21900177213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnoxExamples;
+			productName = EncryptedPrefs;
+			productReference = 9A9888F42CC6A21900177213 /* KnoxExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9889172CC6B1D400177213 /* KnoxExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A98891E2CC6B1D400177213 /* Build configuration list for PBXNativeTarget "KnoxExamplesTests" */;
+			buildPhases = (
+				9A9889142CC6B1D400177213 /* Sources */,
+				9A9889152CC6B1D400177213 /* Frameworks */,
+				9A9889162CC6B1D400177213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A98891D2CC6B1D400177213 /* PBXTargetDependency */,
+			);
+			name = KnoxExamplesTests;
+			productName = EncryptedPrefsTests;
+			productReference = 9A9889182CC6B1D400177213 /* KnoxExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9888EC2CC6A21900177213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9A9888F32CC6A21900177213 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9A9889172CC6B1D400177213 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9A9888F32CC6A21900177213;
+					};
+				};
+			};
+			buildConfigurationList = 9A9888EF2CC6A21900177213 /* Build configuration list for PBXProject "KnoxExamples" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9888EB2CC6A21900177213;
+			packageReferences = (
+				9A87086A2D5A6523005CA44D /* XCRemoteSwiftPackageReference "Knox" */,
+			);
+			productRefGroup = 9A9888F52CC6A21900177213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9888F32CC6A21900177213 /* KnoxExamples */,
+				9A9889172CC6B1D400177213 /* KnoxExamplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9888F22CC6A21900177213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9888FF2CC6A21A00177213 /* Preview Assets.xcassets in Resources */,
+				9A9888FC2CC6A21A00177213 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9889162CC6B1D400177213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9888F02CC6A21900177213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A98892F2CC6B92000177213 /* SecureStoreListViewModel.swift in Sources */,
+				9A9889292CC6B58E00177213 /* SecureStoreListView.swift in Sources */,
+				9A98892B2CC6B59F00177213 /* AddItemView.swift in Sources */,
+				9A9888F82CC6A21900177213 /* KnoxExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9889142CC6B1D400177213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A98891D2CC6B1D400177213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9888F32CC6A21900177213 /* KnoxExamples */;
+			targetProxy = 9A98891C2CC6B1D400177213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A9889002CC6A21A00177213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A9889012CC6A21A00177213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9889032CC6A21A00177213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KnoxExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to secure your data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.EncryptedPrefs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9889042CC6A21A00177213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KnoxExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to secure your data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.EncryptedPrefs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A98891F2CC6B1D400177213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.EncryptedPrefsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnoxExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnoxExamples";
+			};
+			name = Debug;
+		};
+		9A9889202CC6B1D400177213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.EncryptedPrefsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnoxExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KnoxExamples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9888EF2CC6A21900177213 /* Build configuration list for PBXProject "KnoxExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9889002CC6A21A00177213 /* Debug */,
+				9A9889012CC6A21A00177213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9889022CC6A21A00177213 /* Build configuration list for PBXNativeTarget "KnoxExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9889032CC6A21A00177213 /* Debug */,
+				9A9889042CC6A21A00177213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A98891E2CC6B1D400177213 /* Build configuration list for PBXNativeTarget "KnoxExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A98891F2CC6B1D400177213 /* Debug */,
+				9A9889202CC6B1D400177213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A8708662D5A6201005CA44D /* XCRemoteSwiftPackageReference "Knox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iheartswift/Knox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9A87086A2D5A6523005CA44D /* XCRemoteSwiftPackageReference "Knox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iheartswift/Knox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A8708672D5A6201005CA44D /* Knox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A8708662D5A6201005CA44D /* XCRemoteSwiftPackageReference "Knox" */;
+			productName = Knox;
+		};
+		9A87086B2D5A6523005CA44D /* Knox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A87086A2D5A6523005CA44D /* XCRemoteSwiftPackageReference "Knox" */;
+			productName = Knox;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A9888EC2CC6A21900177213 /* Project object */;
+}
