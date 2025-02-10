@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AAFA74A2D5AB7A700B8FC2A /* Wayfinder in Frameworks */ = {isa = PBXBuildFile; productRef = 9AAFA7492D5AB7A700B8FC2A /* Wayfinder */; };
+		9AAFA7C02D5AC6C600B8FC2A /* Wayfinder in Frameworks */ = {isa = PBXBuildFile; productRef = 9AAFA7BF2D5AC6C600B8FC2A /* Wayfinder */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AAFA7252D5AB74C00B8FC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AAFA70C2D5AB74B00B8FC2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAFA7132D5AB74B00B8FC2A;
+			remoteInfo = WayfinderExamples;
+		};
+		9AAFA72F2D5AB74C00B8FC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AAFA70C2D5AB74B00B8FC2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAFA7132D5AB74B00B8FC2A;
+			remoteInfo = WayfinderExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AAFA7142D5AB74B00B8FC2A /* WayfinderExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WayfinderExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAFA7242D5AB74C00B8FC2A /* WayfinderExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayfinderExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAFA72E2D5AB74C00B8FC2A /* WayfinderExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayfinderExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9AAFA7162D5AB74B00B8FC2A /* WayfinderExamples */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WayfinderExamples;
+			sourceTree = "<group>";
+		};
+		9AAFA7272D5AB74C00B8FC2A /* WayfinderExamplesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WayfinderExamplesTests;
+			sourceTree = "<group>";
+		};
+		9AAFA7312D5AB74C00B8FC2A /* WayfinderExamplesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WayfinderExamplesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAFA7112D5AB74B00B8FC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAFA7C02D5AC6C600B8FC2A /* Wayfinder in Frameworks */,
+				9AAFA74A2D5AB7A700B8FC2A /* Wayfinder in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAFA7212D5AB74C00B8FC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAFA72B2D5AB74C00B8FC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AAFA70B2D5AB74B00B8FC2A = {
+			isa = PBXGroup;
+			children = (
+				9AAFA7162D5AB74B00B8FC2A /* WayfinderExamples */,
+				9AAFA7272D5AB74C00B8FC2A /* WayfinderExamplesTests */,
+				9AAFA7312D5AB74C00B8FC2A /* WayfinderExamplesUITests */,
+				9AAFA7482D5AB7A700B8FC2A /* Frameworks */,
+				9AAFA7152D5AB74B00B8FC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AAFA7152D5AB74B00B8FC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AAFA7142D5AB74B00B8FC2A /* WayfinderExamples.app */,
+				9AAFA7242D5AB74C00B8FC2A /* WayfinderExamplesTests.xctest */,
+				9AAFA72E2D5AB74C00B8FC2A /* WayfinderExamplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AAFA7482D5AB7A700B8FC2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AAFA7132D5AB74B00B8FC2A /* WayfinderExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAFA7382D5AB74C00B8FC2A /* Build configuration list for PBXNativeTarget "WayfinderExamples" */;
+			buildPhases = (
+				9AAFA7102D5AB74B00B8FC2A /* Sources */,
+				9AAFA7112D5AB74B00B8FC2A /* Frameworks */,
+				9AAFA7122D5AB74B00B8FC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9AAFA7162D5AB74B00B8FC2A /* WayfinderExamples */,
+			);
+			name = WayfinderExamples;
+			packageProductDependencies = (
+				9AAFA7492D5AB7A700B8FC2A /* Wayfinder */,
+				9AAFA7BF2D5AC6C600B8FC2A /* Wayfinder */,
+			);
+			productName = WayfinderExamples;
+			productReference = 9AAFA7142D5AB74B00B8FC2A /* WayfinderExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AAFA7232D5AB74C00B8FC2A /* WayfinderExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAFA73B2D5AB74C00B8FC2A /* Build configuration list for PBXNativeTarget "WayfinderExamplesTests" */;
+			buildPhases = (
+				9AAFA7202D5AB74C00B8FC2A /* Sources */,
+				9AAFA7212D5AB74C00B8FC2A /* Frameworks */,
+				9AAFA7222D5AB74C00B8FC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAFA7262D5AB74C00B8FC2A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9AAFA7272D5AB74C00B8FC2A /* WayfinderExamplesTests */,
+			);
+			name = WayfinderExamplesTests;
+			packageProductDependencies = (
+			);
+			productName = WayfinderExamplesTests;
+			productReference = 9AAFA7242D5AB74C00B8FC2A /* WayfinderExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AAFA72D2D5AB74C00B8FC2A /* WayfinderExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAFA73E2D5AB74C00B8FC2A /* Build configuration list for PBXNativeTarget "WayfinderExamplesUITests" */;
+			buildPhases = (
+				9AAFA72A2D5AB74C00B8FC2A /* Sources */,
+				9AAFA72B2D5AB74C00B8FC2A /* Frameworks */,
+				9AAFA72C2D5AB74C00B8FC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAFA7302D5AB74C00B8FC2A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9AAFA7312D5AB74C00B8FC2A /* WayfinderExamplesUITests */,
+			);
+			name = WayfinderExamplesUITests;
+			packageProductDependencies = (
+			);
+			productName = WayfinderExamplesUITests;
+			productReference = 9AAFA72E2D5AB74C00B8FC2A /* WayfinderExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AAFA70C2D5AB74B00B8FC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9AAFA7132D5AB74B00B8FC2A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9AAFA7232D5AB74C00B8FC2A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9AAFA7132D5AB74B00B8FC2A;
+					};
+					9AAFA72D2D5AB74C00B8FC2A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9AAFA7132D5AB74B00B8FC2A;
+					};
+				};
+			};
+			buildConfigurationList = 9AAFA70F2D5AB74B00B8FC2A /* Build configuration list for PBXProject "WayfinderExamples" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AAFA70B2D5AB74B00B8FC2A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9AAFA7BE2D5AC6C600B8FC2A /* XCRemoteSwiftPackageReference "Wayfinder" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9AAFA7152D5AB74B00B8FC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AAFA7132D5AB74B00B8FC2A /* WayfinderExamples */,
+				9AAFA7232D5AB74C00B8FC2A /* WayfinderExamplesTests */,
+				9AAFA72D2D5AB74C00B8FC2A /* WayfinderExamplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAFA7122D5AB74B00B8FC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAFA7222D5AB74C00B8FC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAFA72C2D5AB74C00B8FC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAFA7102D5AB74B00B8FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAFA7202D5AB74C00B8FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAFA72A2D5AB74C00B8FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AAFA7262D5AB74C00B8FC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AAFA7132D5AB74B00B8FC2A /* WayfinderExamples */;
+			targetProxy = 9AAFA7252D5AB74C00B8FC2A /* PBXContainerItemProxy */;
+		};
+		9AAFA7302D5AB74C00B8FC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AAFA7132D5AB74B00B8FC2A /* WayfinderExamples */;
+			targetProxy = 9AAFA72F2D5AB74C00B8FC2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AAFA7362D5AB74C00B8FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AAFA7372D5AB74C00B8FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AAFA7392D5AB74C00B8FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WayfinderExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.WayfinderExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AAFA73A2D5AB74C00B8FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WayfinderExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.WayfinderExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AAFA73C2D5AB74C00B8FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.WayfinderExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WayfinderExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WayfinderExamples";
+			};
+			name = Debug;
+		};
+		9AAFA73D2D5AB74C00B8FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.WayfinderExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WayfinderExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WayfinderExamples";
+			};
+			name = Release;
+		};
+		9AAFA73F2D5AB74C00B8FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.WayfinderExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WayfinderExamples;
+			};
+			name = Debug;
+		};
+		9AAFA7402D5AB74C00B8FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4956A4G3WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.WayfinderExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WayfinderExamples;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AAFA70F2D5AB74B00B8FC2A /* Build configuration list for PBXProject "WayfinderExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAFA7362D5AB74C00B8FC2A /* Debug */,
+				9AAFA7372D5AB74C00B8FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAFA7382D5AB74C00B8FC2A /* Build configuration list for PBXNativeTarget "WayfinderExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAFA7392D5AB74C00B8FC2A /* Debug */,
+				9AAFA73A2D5AB74C00B8FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAFA73B2D5AB74C00B8FC2A /* Build configuration list for PBXNativeTarget "WayfinderExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAFA73C2D5AB74C00B8FC2A /* Debug */,
+				9AAFA73D2D5AB74C00B8FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAFA73E2D5AB74C00B8FC2A /* Build configuration list for PBXNativeTarget "WayfinderExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAFA73F2D5AB74C00B8FC2A /* Debug */,
+				9AAFA7402D5AB74C00B8FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AAFA7BE2D5AC6C600B8FC2A /* XCRemoteSwiftPackageReference "Wayfinder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iheartswift/Wayfinder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AAFA7492D5AB7A700B8FC2A /* Wayfinder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Wayfinder;
+		};
+		9AAFA7BF2D5AC6C600B8FC2A /* Wayfinder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AAFA7BE2D5AC6C600B8FC2A /* XCRemoteSwiftPackageReference "Wayfinder" */;
+			productName = Wayfinder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9AAFA70C2D5AB74B00B8FC2A /* Project object */;
+}

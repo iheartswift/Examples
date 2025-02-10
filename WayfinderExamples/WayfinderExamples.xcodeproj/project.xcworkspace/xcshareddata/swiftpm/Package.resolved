@@ -1,0 +1,15 @@
+{
+  "originHash" : "fe082f6dc57863509c77c1b2e5299c7ca365264ff76b5831de75bf281213ed2b",
+  "pins" : [
+    {
+      "identity" : "wayfinder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iheartswift/Wayfinder.git",
+      "state" : {
+        "revision" : "8ba5aed1096f24333a756ad6dc6db3a9a95f6c69",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
