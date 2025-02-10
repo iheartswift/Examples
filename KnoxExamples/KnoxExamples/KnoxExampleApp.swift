@@ -1,6 +1,6 @@
 //
-//  EncryptedPrefsApp.swift
-//  EncryptedPrefs
+//  KnoxExampleApp.swift
+//  KnoxExamples
 //
 //  Created by Adam Dahan on 2024-10-21.
 //
