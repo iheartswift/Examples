@@ -10,23 +10,27 @@ import SwiftUI
 import Wayfinder
 
 struct ContentView: View {
+    
     var body: some View {
         WayfinderContainer<AppRoute>(
              initialRoute: .home,
              viewResolver: { route in
-                  switch route {
-                  case .enterPhoneNumber:
-                      return AnyView(EnterPhoneNumberView())
-                  case .home:
-                      return AnyView(HomeView())
-                  case .detail(let itemID):
-                      return AnyView(DetailView(itemID: itemID))
-                  }
+                 resolveView(for: route)
              }
         )
     }
+    
+    func resolveView(for route: AppRoute) -> AnyView {
+        switch route {
+        case .enterPhoneNumber:
+            return AnyView(EnterPhoneNumberView())
+        case .home:
+            return AnyView(HomeView())
+        case .detail(let itemID):
+            return AnyView(DetailView(itemID: itemID))
+        }
+    }
 }
-
 
 #Preview {
     ContentView()
