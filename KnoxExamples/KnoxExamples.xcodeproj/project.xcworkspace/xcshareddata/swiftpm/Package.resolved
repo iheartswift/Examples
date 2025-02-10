@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/iheartswift/Knox.git",
       "state" : {
-        "revision" : "e9074ed967029845578756664b196ab90b53ab61",
-        "version" : "1.0.2"
+        "revision" : "5b33c39e980d784f7e7adfcd76fd0f8121573a1e",
+        "version" : "1.0.4"
       }
     }
   ],
